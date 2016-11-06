@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		373F83681BD0DF8C009BC161 /* SFRAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 373F83671BD0DF8C009BC161 /* SFRAboutViewController.m */; };
+		373F836B1BD0DFB2009BC161 /* About.txt in Resources */ = {isa = PBXBuildFile; fileRef = 373F836A1BD0DFB2009BC161 /* About.txt */; };
+		3744A84C1BCC2C45005F61B4 /* SFRAlbumHeaderCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3744A84B1BCC2C45005F61B4 /* SFRAlbumHeaderCollectionReusableView.m */; };
+		779E5E0A8AC4D835E4A45969 /* libPods-Apollo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA96A43EFB35A761EED16FF9 /* libPods-Apollo.a */; };
+		A01B47C41BCD7ABA007312DC /* SFRSlideShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A01B47C31BCD7ABA007312DC /* SFRSlideShowViewController.m */; };
+		A05F32971BC966990057348F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A05F32961BC966990057348F /* main.m */; };
+		A05F329A1BC966990057348F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A05F32991BC966990057348F /* AppDelegate.m */; };
+		A05F329D1BC966990057348F /* SFRAlbumListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A05F329C1BC966990057348F /* SFRAlbumListViewController.m */; };
+		A05F32A01BC966990057348F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A05F329E1BC966990057348F /* Main.storyboard */; };
+		A05F32A21BC966990057348F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A05F32A11BC966990057348F /* Assets.xcassets */; };
+		A09BA1D21DCE423C00E06ED5 /* NSString+File.m in Sources */ = {isa = PBXBuildFile; fileRef = A09BA1D11DCE423C00E06ED5 /* NSString+File.m */; };
+		A09C50941BD4263E00C3048A /* Timeline.txt in Resources */ = {isa = PBXBuildFile; fileRef = A09C50931BD4263E00C3048A /* Timeline.txt */; };
+		A09C50981BD42A3100C3048A /* SFRAboutThisAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A09C50971BD42A3100C3048A /* SFRAboutThisAppViewController.m */; };
+		A0C8910A1DCDFB7700A5FEFD /* SFRConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C891091DCDFB7700A5FEFD /* SFRConstants.m */; };
+		A0C891101DCDFEB300A5FEFD /* UIImageView+Blur.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C8910F1DCDFEB300A5FEFD /* UIImageView+Blur.m */; };
+		A0CBE9DA1BC96FF200015EC8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0CBE9D91BC96FF200015EC8 /* SystemConfiguration.framework */; };
+		A0CBE9DD1BC9753000015EC8 /* SFRPhotoSetCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CBE9DC1BC9753000015EC8 /* SFRPhotoSetCollectionViewCell.m */; };
+		A0CBEA351BCA868500015EC8 /* SFRAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CBEA341BCA868500015EC8 /* SFRAlbumViewController.m */; };
+		A0CBEA381BCA8E5900015EC8 /* SFRPhotoViewerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CBEA371BCA8E5900015EC8 /* SFRPhotoViewerViewController.m */; };
+		A0DC26421BD033F00005733F /* SFRPhotoSetHeaderCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DC26411BD033F00005733F /* SFRPhotoSetHeaderCollectionReusableView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1FC262E9408C14BDD7F96F68 /* Pods-Apollo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Apollo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Apollo/Pods-Apollo.release.xcconfig"; sourceTree = "<group>"; };
+		27F6D264365B18AF0FCD0ECB /* Pods-Apollo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Apollo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Apollo/Pods-Apollo.debug.xcconfig"; sourceTree = "<group>"; };
+		373F83661BD0DF8C009BC161 /* SFRAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFRAboutViewController.h; sourceTree = "<group>"; };
+		373F83671BD0DF8C009BC161 /* SFRAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFRAboutViewController.m; sourceTree = "<group>"; };
+		373F836A1BD0DFB2009BC161 /* About.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = About.txt; sourceTree = "<group>"; };
+		3744A84A1BCC2C45005F61B4 /* SFRAlbumHeaderCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFRAlbumHeaderCollectionReusableView.h; sourceTree = "<group>"; };
+		3744A84B1BCC2C45005F61B4 /* SFRAlbumHeaderCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFRAlbumHeaderCollectionReusableView.m; sourceTree = "<group>"; };
+		6A1CC3A3ACD21A711EFF862E /* libPods-ApolloUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ApolloUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A3086A35085507B8DF54341 /* Pods-ApolloUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApolloUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ApolloUITests/Pods-ApolloUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A01B47C21BCD7ABA007312DC /* SFRSlideShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFRSlideShowViewController.h; sourceTree = "<group>"; };
+		A01B47C31BCD7ABA007312DC /* SFRSlideShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFRSlideShowViewController.m; sourceTree = "<group>"; };
+		A05F32921BC966990057348F /* Apollo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Apollo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A05F32961BC966990057348F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A05F32981BC966990057348F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A05F32991BC966990057348F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A05F329B1BC966990057348F /* SFRAlbumListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFRAlbumListViewController.h; sourceTree = "<group>"; };
+		A05F329C1BC966990057348F /* SFRAlbumListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFRAlbumListViewController.m; sourceTree = "<group>"; };
+		A05F329F1BC966990057348F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A05F32A11BC966990057348F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A05F32A31BC966990057348F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A09BA1D01DCE423C00E06ED5 /* NSString+File.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+File.h"; sourceTree = "<group>"; };
+		A09BA1D11DCE423C00E06ED5 /* NSString+File.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+File.m"; sourceTree = "<group>"; };
+		A09C50931BD4263E00C3048A /* Timeline.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Timeline.txt; sourceTree = "<group>"; };
+		A09C50961BD42A3100C3048A /* SFRAboutThisAppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFRAboutThisAppViewController.h; sourceTree = "<group>"; };
+		A09C50971BD42A3100C3048A /* SFRAboutThisAppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFRAboutThisAppViewController.m; sourceTree = "<group>"; };
+		A0C891081DCDFB7700A5FEFD /* SFRConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFRConstants.h; sourceTree = "<group>"; };
+		A0C891091DCDFB7700A5FEFD /* SFRConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFRConstants.m; sourceTree = "<group>"; };
+		A0C8910E1DCDFEB300A5FEFD /* UIImageView+Blur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Blur.h"; sourceTree = "<group>"; };
+		A0C8910F1DCDFEB300A5FEFD /* UIImageView+Blur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Blur.m"; sourceTree = "<group>"; };
+		A0CBE9D91BC96FF200015EC8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A0CBE9DB1BC9753000015EC8 /* SFRPhotoSetCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFRPhotoSetCollectionViewCell.h; sourceTree = "<group>"; };
+		A0CBE9DC1BC9753000015EC8 /* SFRPhotoSetCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFRPhotoSetCollectionViewCell.m; sourceTree = "<group>"; };
+		A0CBEA331BCA868500015EC8 /* SFRAlbumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFRAlbumViewController.h; sourceTree = "<group>"; };
+		A0CBEA341BCA868500015EC8 /* SFRAlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFRAlbumViewController.m; sourceTree = "<group>"; };
+		A0CBEA361BCA8E5900015EC8 /* SFRPhotoViewerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFRPhotoViewerViewController.h; sourceTree = "<group>"; };
+		A0CBEA371BCA8E5900015EC8 /* SFRPhotoViewerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFRPhotoViewerViewController.m; sourceTree = "<group>"; };
+		A0DC26401BD033F00005733F /* SFRPhotoSetHeaderCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFRPhotoSetHeaderCollectionReusableView.h; sourceTree = "<group>"; };
+		A0DC26411BD033F00005733F /* SFRPhotoSetHeaderCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFRPhotoSetHeaderCollectionReusableView.m; sourceTree = "<group>"; };
+		E5828E91965E610C219E39F2 /* Pods-ApolloUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApolloUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ApolloUITests/Pods-ApolloUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EA96A43EFB35A761EED16FF9 /* libPods-Apollo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Apollo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A05F328F1BC966990057348F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0CBE9DA1BC96FF200015EC8 /* SystemConfiguration.framework in Frameworks */,
+				779E5E0A8AC4D835E4A45969 /* libPods-Apollo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BB443C78AA11BA9C0790A8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA96A43EFB35A761EED16FF9 /* libPods-Apollo.a */,
+				6A1CC3A3ACD21A711EFF862E /* libPods-ApolloUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		373F83641BD0DF6F009BC161 /* Photo Browsing */ = {
+			isa = PBXGroup;
+			children = (
+				A05F329B1BC966990057348F /* SFRAlbumListViewController.h */,
+				A05F329C1BC966990057348F /* SFRAlbumListViewController.m */,
+				A0CBE9DB1BC9753000015EC8 /* SFRPhotoSetCollectionViewCell.h */,
+				A0CBE9DC1BC9753000015EC8 /* SFRPhotoSetCollectionViewCell.m */,
+				A0DC26401BD033F00005733F /* SFRPhotoSetHeaderCollectionReusableView.h */,
+				A0DC26411BD033F00005733F /* SFRPhotoSetHeaderCollectionReusableView.m */,
+				A0CBEA331BCA868500015EC8 /* SFRAlbumViewController.h */,
+				A0CBEA341BCA868500015EC8 /* SFRAlbumViewController.m */,
+				3744A84A1BCC2C45005F61B4 /* SFRAlbumHeaderCollectionReusableView.h */,
+				3744A84B1BCC2C45005F61B4 /* SFRAlbumHeaderCollectionReusableView.m */,
+				A0CBEA361BCA8E5900015EC8 /* SFRPhotoViewerViewController.h */,
+				A0CBEA371BCA8E5900015EC8 /* SFRPhotoViewerViewController.m */,
+				A01B47C21BCD7ABA007312DC /* SFRSlideShowViewController.h */,
+				A01B47C31BCD7ABA007312DC /* SFRSlideShowViewController.m */,
+			);
+			name = "Photo Browsing";
+			sourceTree = "<group>";
+		};
+		373F83691BD0DF94009BC161 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				373F83661BD0DF8C009BC161 /* SFRAboutViewController.h */,
+				373F83671BD0DF8C009BC161 /* SFRAboutViewController.m */,
+				A09C50961BD42A3100C3048A /* SFRAboutThisAppViewController.h */,
+				A09C50971BD42A3100C3048A /* SFRAboutThisAppViewController.m */,
+			);
+			name = About;
+			sourceTree = "<group>";
+		};
+		6D073A0585ADADC08C7749FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27F6D264365B18AF0FCD0ECB /* Pods-Apollo.debug.xcconfig */,
+				1FC262E9408C14BDD7F96F68 /* Pods-Apollo.release.xcconfig */,
+				E5828E91965E610C219E39F2 /* Pods-ApolloUITests.debug.xcconfig */,
+				9A3086A35085507B8DF54341 /* Pods-ApolloUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A05F32891BC966990057348F = {
+			isa = PBXGroup;
+			children = (
+				A0CBE9D91BC96FF200015EC8 /* SystemConfiguration.framework */,
+				A05F32941BC966990057348F /* Apollo */,
+				A05F32931BC966990057348F /* Products */,
+				6D073A0585ADADC08C7749FF /* Pods */,
+				0BB443C78AA11BA9C0790A8D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A05F32931BC966990057348F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A05F32921BC966990057348F /* Apollo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A05F32941BC966990057348F /* Apollo */ = {
+			isa = PBXGroup;
+			children = (
+				A05F32981BC966990057348F /* AppDelegate.h */,
+				A05F32991BC966990057348F /* AppDelegate.m */,
+				A0C891081DCDFB7700A5FEFD /* SFRConstants.h */,
+				A0C891091DCDFB7700A5FEFD /* SFRConstants.m */,
+				A09BA1D31DCE604B00E06ED5 /* Categories */,
+				373F83641BD0DF6F009BC161 /* Photo Browsing */,
+				373F83691BD0DF94009BC161 /* About */,
+				A05F329E1BC966990057348F /* Main.storyboard */,
+				A05F32A11BC966990057348F /* Assets.xcassets */,
+				A05F32A31BC966990057348F /* Info.plist */,
+				373F836A1BD0DFB2009BC161 /* About.txt */,
+				A09C50931BD4263E00C3048A /* Timeline.txt */,
+				A05F32951BC966990057348F /* Supporting Files */,
+			);
+			path = Apollo;
+			sourceTree = "<group>";
+		};
+		A05F32951BC966990057348F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A05F32961BC966990057348F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A09BA1D31DCE604B00E06ED5 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				A0C8910E1DCDFEB300A5FEFD /* UIImageView+Blur.h */,
+				A0C8910F1DCDFEB300A5FEFD /* UIImageView+Blur.m */,
+				A09BA1D01DCE423C00E06ED5 /* NSString+File.h */,
+				A09BA1D11DCE423C00E06ED5 /* NSString+File.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A05F32911BC966990057348F /* Apollo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A05F32B11BC966990057348F /* Build configuration list for PBXNativeTarget "Apollo" */;
+			buildPhases = (
+				AA4CF1326C7E174431A8D663 /* [CP] Check Pods Manifest.lock */,
+				A05F328E1BC966990057348F /* Sources */,
+				A05F328F1BC966990057348F /* Frameworks */,
+				A05F32901BC966990057348F /* Resources */,
+				A0362BC7B1DD9AB5E7C6825C /* [CP] Embed Pods Frameworks */,
+				535230D1D5C530A7B6A5D8F0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Apollo;
+			productName = Apollo;
+			productReference = A05F32921BC966990057348F /* Apollo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A05F328A1BC966990057348F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Daniel Leivers";
+				TargetAttributes = {
+					A05F32911BC966990057348F = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 993FLJTASU;
+					};
+				};
+			};
+			buildConfigurationList = A05F328D1BC966990057348F /* Build configuration list for PBXProject "Apollo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A05F32891BC966990057348F;
+			productRefGroup = A05F32931BC966990057348F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A05F32911BC966990057348F /* Apollo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A05F32901BC966990057348F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				373F836B1BD0DFB2009BC161 /* About.txt in Resources */,
+				A09C50941BD4263E00C3048A /* Timeline.txt in Resources */,
+				A05F32A21BC966990057348F /* Assets.xcassets in Resources */,
+				A05F32A01BC966990057348F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		535230D1D5C530A7B6A5D8F0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Apollo/Pods-Apollo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0362BC7B1DD9AB5E7C6825C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Apollo/Pods-Apollo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA4CF1326C7E174431A8D663 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A05F328E1BC966990057348F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C891101DCDFEB300A5FEFD /* UIImageView+Blur.m in Sources */,
+				373F83681BD0DF8C009BC161 /* SFRAboutViewController.m in Sources */,
+				A09C50981BD42A3100C3048A /* SFRAboutThisAppViewController.m in Sources */,
+				A09BA1D21DCE423C00E06ED5 /* NSString+File.m in Sources */,
+				A05F329D1BC966990057348F /* SFRAlbumListViewController.m in Sources */,
+				A05F329A1BC966990057348F /* AppDelegate.m in Sources */,
+				A01B47C41BCD7ABA007312DC /* SFRSlideShowViewController.m in Sources */,
+				A0C8910A1DCDFB7700A5FEFD /* SFRConstants.m in Sources */,
+				3744A84C1BCC2C45005F61B4 /* SFRAlbumHeaderCollectionReusableView.m in Sources */,
+				A0CBEA351BCA868500015EC8 /* SFRAlbumViewController.m in Sources */,
+				A0CBEA381BCA8E5900015EC8 /* SFRPhotoViewerViewController.m in Sources */,
+				A0CBE9DD1BC9753000015EC8 /* SFRPhotoSetCollectionViewCell.m in Sources */,
+				A05F32971BC966990057348F /* main.m in Sources */,
+				A0DC26421BD033F00005733F /* SFRPhotoSetHeaderCollectionReusableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A05F329E1BC966990057348F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A05F329F1BC966990057348F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A05F32AF1BC966990057348F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		A05F32B01BC966990057348F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A05F32B21BC966990057348F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27F6D264365B18AF0FCD0ECB /* Pods-Apollo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Apollo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sofaracing.Apollo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A05F32B31BC966990057348F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FC262E9408C14BDD7F96F68 /* Pods-Apollo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Apollo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sofaracing.Apollo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A05F328D1BC966990057348F /* Build configuration list for PBXProject "Apollo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A05F32AF1BC966990057348F /* Debug */,
+				A05F32B01BC966990057348F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A05F32B11BC966990057348F /* Build configuration list for PBXNativeTarget "Apollo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A05F32B21BC966990057348F /* Debug */,
+				A05F32B31BC966990057348F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A05F328A1BC966990057348F /* Project object */;
+}
