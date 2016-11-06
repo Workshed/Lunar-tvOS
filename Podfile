@@ -9,8 +9,3 @@ pod 'FlickrKit'
 pod 'AFNetworking'
 
 end
-
-target 'ApolloUITests' do
-
-end
-
